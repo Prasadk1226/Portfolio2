@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+
+.bg-container1{
+    width: 100%;
+    height: 50vh;
+    background-image: url(https://miro.medium.com/v2/resize:fit:12000/0*tQQ7SLPOJfxaG4ZY);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bg-box{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+}
+.bgs{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(27, 223, 53, 0.219);
+}
+.bgs:hover{
+    box-shadow: 0px 0px 5px white;
+    background-color: rgba(0, 255, 255, 0);
+    transition-duration: .1s;
+}
+
+/* 
+Second Container styling starts from here.
+*/
+
+.bg-container22{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+    top: -250px;
+    font-size: xx-large;
+}
+
+.bg-container22>h2,h5{
+    text-shadow: 0px 0px 5px white;
+
+}
+
+.bg-container22>img{
+    border-radius: 50%;
+    border: 5px solid;
+    box-shadow: 0px 0px 10px white;
+    filter: hue-rotate(50);
+}
+.text-bg-box{
+    display: flex;
+    justify-content: center;
+    margin-top: -15%;
+}
+.text-bg-box1{
+    width: 80vw;
+}
+
+
+
+
+/* ============================
+        Media Queries
+=============================== */
+
+@media screen and (max-width:1025px) {
+    .text-bg-box{
+        margin-top: -25%;
+    }
+}
+@media screen and (max-width:768px) {
+    .text-bg-box{
+        margin-top: -30%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .text-bg-box{
+        margin-top: -50%;
+    }
+}
+@media screen and (max-width:380px) {
+    .text-bg-box{
+        margin-top: -60%;
+    }
+}
+.text-bg-box1{
+    /* width: 90vw; */
+    text-align: center;
+    padding-bottom: 3%;
+    
+}
+
+/* ===================================
+        Third Container
+====================================== */
+
+.bg-container3{
+    padding: 6% 0%;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(133, 226, 145) ;
+}
+.bg-container3>h2{
+    padding-bottom: 3%;
+    font-size: 36px;
+}
+.bg-container33{
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    font-weight: 700;
+}
+
+.circles-container{
+    border: 3px solid;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+/* ===================================
+        Forth Container
+====================================== */
+.bg-container4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 2%;
+}
+
+.inner-container44{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    height:auto;
+
+}
+.bg-container4>h2{
+    font-size: 36px;
+    text-align: center;
+    padding: 3%;
+
+}
+
+.bg-container44{
+    padding: 20px 10px;
+    width: 350px;
+    /* background: radial-gradient(circle at bottom left, rgba(71, 208, 11, 0.685),rgb(166, 209, 49)); */
+    font-weight: 500;
+
+}
+
+.bg-container44{
+    width: 300px;
+
+}
+
+/* ===================================
+        Fifth Container
+====================================== */
+
+.bg-container5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    padding-bottom: 3%;
+}
+.bg-container5>h2{
+    font-size: 36px;
+    text-align: center;
+    padding: 3%;
+
+}
+
+.innercontainer55{
+    width: 80%;
+}
+.bg-container55{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+.year{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(133, 226, 145);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-weight: 900;
+}
+.text-box5{
+    width: 80%;
+}
+/* ===================================
+        Sixth Container
+====================================== */
+.bg-container6{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2%;
+    background-color: rgb(133, 226, 145) ;
+    padding: 5%;
+
+}
+
+.bg-container6>h2{
+    font-size: 36px;
+    text-align: center;
+    padding-bottom: 2%;
+
+}
+.bgcontainer66{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+
+li{
+    list-style-type: none;
+    font-size: 20px;
+    padding-top: 15px;
+}
+li>i{
+    padding: 10px;
+    color: rgb(133, 226, 145);
+    border: 1px solid;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    font-size: 26px;
+    background-color: white;
+}
+
+
+/* ===================================
+        Seventh Container
+====================================== */
+
+.bg-container7{
+    height: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.bg-container7 h2{
+    padding: 20px;
+}
+
+.bg-container77{
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 150px;
+    gap: 20px;
+}
+
+@media screen and (max-width:900px) {
+    .bg-container77{
+        display: grid;
+        width: 80%;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 150px;
+        gap: 20px;
+    }
+
+    
+}
+@media screen and (max-width:450px) {
+    .bg-container77{
+        display: grid;
+        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 150px;
+        gap: 20px;
+    }
+
+    
+}
+.grid-images{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+
+}
+.grid-images>h4{
+    background-color: rgb(133, 226, 145);
+    text-decoration: none;
+}
+
+.grid-images:hover{
+    border-radius: 10px;
+    transform: skew(5deg);
+    transition-duration: .5s;
+    box-shadow: 0px 0px 50px rgb(133, 226, 145);
+    
+    
+}
+
+
+.img1{
+    background-image: url(./Iframes.png);
+}
+.img2{
+    background-image: url(./forms\ &\ form\ actions.png);
+}
+.img3{
+    background-image: url(./images.png);
+}
+.img4{
+    background-image: url(./download\ songs\ Nee\ songs.png);
+}
+.img5{
+    background-image: url(./Gradients\ colors.png);
+}
+.img6{
+    background-image: url(./Positions.png);
+}
+.img7{
+    background-image: url(./grid\ columns.png);
+}
+.img8{
+    background-image: url(./grid\ area.png);
+}
+.img9{
+    background-image: url(./flex\ playstore\ box.png);
+}
+.img10{
+    background-image: url(./Flex\ Keyboard.png);
+}
+.img11{
+    background-image: url(./Css\ mediaqueries\ template.png);
+}
+.img12{
+    background-image: url(./Bootstrap.png);
+}
+.img13{
+    background-image: url(./Project\ work.png);
+}
+.img14{
+    background-image: url(./Portfolio\ 1.png);
+}
+.img15{
+    background-image: url(./Portfolio2.png);
+}
