@@ -269,6 +269,16 @@ li>i{
     background-color: white;
 }
 
+/* ============================
+        Media Queries
+=============================== */
+@media screen and (max-width:430px) {
+    .bgcontainer66{
+        justify-content: flex-start;
+    }
+
+}
+
 
 /* ===================================
         Seventh Container
@@ -294,6 +304,9 @@ li>i{
     gap: 20px;
 }
 
+/* ============================
+        Media Queries
+=============================== */
 @media screen and (max-width:900px) {
     .bg-container77{
         display: grid;
