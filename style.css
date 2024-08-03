@@ -315,6 +315,9 @@ li>i{
         grid-template-rows: 150px;
         gap: 20px;
     }
+    .bg-container66{
+        width: 300px;
+    }
 
     
 }
@@ -326,6 +329,7 @@ li>i{
         grid-template-rows: 150px;
         gap: 20px;
     }
+    
 
     
 }
