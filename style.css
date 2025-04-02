@@ -46,7 +46,13 @@ Second Container styling starts from here.
     font-size: xx-large;
 }
 
-.bg-container22>h2,h5{
+.bg-container22>h2{
+    font-size: 64px;
+    text-shadow: 0px 0px 5px white;
+    color: azure;
+
+}
+.bg-container22>h5{
     text-shadow: 0px 0px 5px white;
 
 }
@@ -404,4 +410,28 @@ li>i{
 }
 .img15{
     background-image: url(./Portfolio2.png);
+}
+
+.inner-container5{
+    margin-top: 20px;
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 50px;
+    text-shadow: 0px 0px 5px white;
+}
+a i{
+    color: #33747e; /* Warm amber tone */
+    text-shadow: 0px 0px 8px rgb(133, 226, 145); /* Soft glowing effect */
+}
+a i:hover{
+    color: rgb(133, 226, 145); /* Warm amber tone */
+    text-shadow: 0px 0px 8px rgba(255, 242, 0, 0.89); /* Soft glowing effect */
+}
+
+.car-title{
+    color: white;
+    font-weight: 100;
+}
+.foot{
+    font-size: 24px;
 }
